@@ -62,7 +62,6 @@ header {
 /* Main section styles */
 main {
     max-width: 1200px;
-    height: 1000px;
     margin: auto;
 }
 
@@ -163,4 +162,58 @@ main {
 
 .grad button {
     margin-left: 65px;
+}
+
+/* Footer section styles */
+.footer {
+    background-color: #151414;
+}
+
+.footer-content {
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+    padding: 150px 0px;
+}
+
+.future {
+    width: 50%;
+}
+
+.future-title {
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.future-text {
+    color: #FFF;
+    font-weight: 400;
+    width: 450px;
+    margin: 25px 0px;
+}
+
+.subscribe {
+    width: 50%;
+}
+
+.subscribe-title {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.email-input {
+    width: 325px;
+    height: 64px;
+    background-color: #151414;
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    color: #F3F3F3;
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 21px;
+    margin: 20px 0px;
+    display: block;
 }
