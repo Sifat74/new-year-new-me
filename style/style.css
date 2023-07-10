@@ -61,11 +61,12 @@ header {
 
 /* Main section styles */
 main {
-    max-width: 1600px;
+    max-width: 1200px;
     height: 1000px;
     margin: auto;
 }
 
+/* Failure section */
 .my-failues {
     display: flex;
 }
@@ -93,4 +94,45 @@ main {
 .fa-check {
     color: #16D887;
     padding: 10px;
+}
+
+/* My plans sections */
+.my-plans {
+    margin-top: 100px;
+}
+
+.plan-title {
+    text-align: center;
+}
+
+.section-items {
+    display: flex;
+    gap: 100px;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.item-img {
+    width: 100px;
+    height: 100px;
+}
+
+.item-title {
+    color: #151414;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 20px 0px;
+}
+
+.item-target {
+    color: #737272;
+    font-weight: 400;
+    font-size: 20px;
 }
