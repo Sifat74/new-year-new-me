@@ -136,3 +136,31 @@ main {
     font-weight: 400;
     font-size: 20px;
 }
+
+/* Call section */
+.call-now {
+    width: 100%;
+    height: 300px;
+    background-image: url('../images/watch.png');
+    background-size: cover;
+    margin: 150px 0px;
+}
+
+.grad {
+    width: 100%;
+    height: 300px;
+    background-image: url('../images/gradient1.png');
+    background-size: cover;
+}
+
+.call-title {
+    width: 450px;
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    padding: 65px 0px 10px 65px;
+}
+
+.grad button {
+    margin-left: 65px;
+}
